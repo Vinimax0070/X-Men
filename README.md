@@ -6,7 +6,7 @@
 </h1>
 
 <h1>
-    <img src="(https://ik.imagekit.io/cpubcba62/PROJETO_X-MEN.png?updatedAt=1688920433834)">
+   <img src="https://ik.imagekit.io/cpubcba62/PROJETO_X-MEN.png?ik-sdk-version=javascript-1.4.3&updatedAt=1688920433834">
 </h1>
 
 
