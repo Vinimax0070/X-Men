@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="stylesheet" href="./style.css">
+
+    <title>X-Men</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/imagensxmen/css/estilos.css">
+    <link rel="stylesheet" href="./src/imagensxmen/css/reset.css">
+    <link rel="stylesheet" href="./src/imagensxmen/css/responsivo.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagensxmen/imagens/logo.svg">
+    </header>
+    
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="Ele tem o poder de disparar rajadas opticas por um acidente que aconteceu com ele quando era criança,mas não consegue controlá-los">
+                    <img src="./src/imagensxmen/imagens/card-ciclope.jpg" alt="ciclope" >
+                </li>
+
+                <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="É uma mutante nível omega e o principa e o principal avatar da força fenix.Na qual manifesta poderes cosmicos. telepatica e telecinese">
+                    <img src="./src/imagensxmen/imagens/card-jean-grey.jpg" alt="card-jean-grey" >
+                </li>
+                <li class="personagem" id="lince-negra" data-name="lince-negra" data-description="Ela tem o poder de atravessar materia solida.Campos de nergia,rajadas ópticas continuando intacta e também tem o poder de andar no ar">
+                    <img src="./src/imagensxmen/imagens/card-lince-negra.jpg" alt="
+                    card-lince-negra">
+                </li>
+                <li class="personagem" id="magneto" data-name="magneto" data-description="Ele tem o poder de magnetocinese,ou seja, controlar objetos de metal e criar campos magnéticos">
+                    <img src="./src/imagensxmen/imagens/card-magneto.jpg" alt="card-magneto">
+                </li>
+                <li class="personagem" id="noturno" data-name="noturno" data-description="Ele é um mutante que nasceu com cauda, orelhas pontudas e com o poder de se teletransportar">
+                    <img src="./src/imagensxmen/imagens/card-noturno.jpg" alt="card-noturno">
+                </li>
+                <li class="personagem" id="tempestade" data-name="tempestade" data-description="Tem o poder de controlar as forçar da natureza, muito poderosa ela pode produzir raios, chuvas, gelos,ventos,neblina,entre outros efeitos">
+                    <img src="./src/imagensxmen/imagens/card-tempestade.jpg" alt="card-tempestade">
+                </li>
+                <li class="personagem" id="vampira" data-name="vampira" data-description="Ela tem o poder de absorver a vitalidade e a memória das pessoas que toca ou no caso dos mutantes os poderes e a memória, mas só temporariamente">
+                    <img src="./src/imagensxmen/imagens/card-vampira.jpg" alt="card-vampira">
+                </li>
+                <li class="personagem" id="wolverine" data-name="wolverine" data-description="Poderes garras metalicas, fator de cura regenerativa super agilidade">
+                    <img src="./src/imagensxmen/imagens/card-wolverine.jpg" alt="card-wolverine">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class= "personagem-grande" src="./src/imagensxmen/imagens/card-ciclope.png" alt="Personagem Selecionado">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Ele tem o poder de disparar rajadas opticas por um acidente que aconteceu com ele quando era criança,mas não consegue controlá-los </p>
+            </div>
+            
+        </section>
+    </main>
+
+    <script src="./src/imagensxmen/js/index.js"></script>
+</body>
+</html>
